@@ -11,7 +11,7 @@ export const tools = [
     bgColor: "bg-violet-500/10",
   },
   {
-    label: 'Geração de Música',
+    label: 'Geração de Músicas',	
     icon: Music,
     href: '/music',
     color: "text-emerald-500",

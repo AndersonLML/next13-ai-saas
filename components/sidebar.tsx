@@ -37,7 +37,7 @@ const routes = [
     href: '/video',
   },
   {
-    label: 'Geração de Música',
+    label: 'Geração de Músicas',
     icon: Music,
     color: "text-emerald-500",
     href: '/music',
