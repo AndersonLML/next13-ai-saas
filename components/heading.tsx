@@ -1,11 +1,11 @@
-import { Icon } from "lucide-react";
+import { icons } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
 interface HeadingProps {
   title: string;
   description: string;
-  icon: Icon;
+  icon: React.ElementType;
   iconColor?: string;
   bgColor?: string;
 }
