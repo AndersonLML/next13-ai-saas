@@ -13,43 +13,43 @@ const poppins = Montserrat ({ weight: '600', subsets: ['latin'] });
 
 const routes = [
   {
-    label: 'Dashboard',
+    label: 'Painel',
     icon: LayoutDashboard,
     href: '/dashboard',
     color: "text-sky-500"
   },
   {
-    label: 'Conversation',
+    label: 'Conversação',
     icon: MessageSquare,
     href: '/conversation',
     color: "text-violet-500",
   },
   {
-    label: 'Image Generation',
+    label: 'Geração de Imagens',
     icon: ImageIcon,
     color: "text-pink-700",
     href: '/image',
   },
   {
-    label: 'Video Generation',
+    label: 'Geração de Videos',
     icon: VideoIcon,
     color: "text-orange-700",
     href: '/video',
   },
   {
-    label: 'Music Generation',
+    label: 'Geração de Música',
     icon: Music,
     color: "text-emerald-500",
     href: '/music',
   },
   {
-    label: 'Code Generation',
+    label: 'Geração de Código',
     icon: Code,
     color: "text-green-700",
     href: '/code',
   },
   {
-    label: 'Settings',
+    label: 'Configurações',
     icon: Settings,
     href: '/settings',
   },
