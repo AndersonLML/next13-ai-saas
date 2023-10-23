@@ -19,7 +19,7 @@ const testimonials = [
     name: "Anônimo",
     avatar: "An",
     title: "Estudante",
-    description: "O App está me ajudando nos estudos e em várias tarefas que faço semanalmente, muitop bom!",
+    description: "O App está me ajudando nos estudos e em várias tarefas que faço semanalmente, muito bom!",
   },
   {
     name: "Anônimo",
