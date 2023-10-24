@@ -51,7 +51,7 @@ const CodePage = () => {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
-        toast.error("Something went wrong.");
+        toast.error("Algo não está certo.");
       }
     } finally {
       router.refresh();
@@ -61,8 +61,8 @@ const CodePage = () => {
   return ( 
     <div>
       <Heading
-        title="Code Generation"
-        description="Generate code using descriptive text."
+        title="Gerar Código de Programação"
+        description="Gere código usando texto descritivo."
         icon={Code}
         iconColor="text-green-700"
         bgColor="bg-green-700/10"
