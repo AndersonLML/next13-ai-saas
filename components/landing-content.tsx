@@ -4,13 +4,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Anderson",
+    name: "Anderson Leonardo Machado Leite",
     avatar: "A",
     title: "CEO e Desenvolvedor Full Stack",
     description: "A utilização de Inteligência Artificial nos estudos e nas pesquisas melhoraram e muito a produção!",
   },
   {
-    name: "Arlindo",
+    name: "Arlindo H M Leite",
     avatar: "Ar",
     title: "CTO",
     description: "Eu utilizei para gerar algumas imagens, me surpriendi!",
