@@ -19,34 +19,10 @@ const routes = [
     color: "text-sky-500"
   },
   {
-    label: 'Conversação',
+    label: 'Conversar com a I.A',
     icon: MessageSquare,
     href: '/conversation',
     color: "text-violet-500",
-  },
-  {
-    label: 'Geração de Imagens',
-    icon: ImageIcon,
-    color: "text-pink-700",
-    href: '/image',
-  },
-  {
-    label: 'Geração de Videos',
-    icon: VideoIcon,
-    color: "text-orange-700",
-    href: '/video',
-  },
-  {
-    label: 'Geração de Músicas',
-    icon: Music,
-    color: "text-emerald-500",
-    href: '/music',
-  },
-  {
-    label: 'Geração de Código',
-    icon: Code,
-    color: "text-green-700",
-    href: '/code',
   },
   {
     label: 'Configurações',

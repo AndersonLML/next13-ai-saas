@@ -46,7 +46,7 @@ export async function GET() {
               name: "Genius Pro",
               description: "Gerações ilimitadas de IA"
             },
-            unit_amount: 4990,
+            unit_amount: 1999,
             recurring: {
               interval: "month"
             }

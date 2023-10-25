@@ -35,11 +35,11 @@ export async function POST(
     const isPro = await checkSubscription();
 
     if (!freeTrial && !isPro) {
-      return new NextResponse("Free trial has expired. Please upgrade to pro.", { status: 403 });
+      return new NextResponse("A avaliação gratuita expirou. Atualize para profissional.", { status: 403 });
     }
 
     const response = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4",
       messages
     });
 

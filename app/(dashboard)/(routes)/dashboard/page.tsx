@@ -18,7 +18,7 @@ export default function HomePage() {
         Explore o poder da IA
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-        Converse com a IA mais inteligente - Experimente o poder da IA
+        Converse com a IA mais inteligente - Experimente o poder da I.A
         </p>
       </div>
       <div className="px-4 md:px-20 lg:px-32 space-y-4">

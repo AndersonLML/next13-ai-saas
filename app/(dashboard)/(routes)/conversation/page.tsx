@@ -60,8 +60,8 @@ const ConversationPage = () => {
   return ( 
     <div>
       <Heading
-        title="Conversar com o bot"
-        description="Nosso modelo de conversação mais avançado."
+        title="Conversar com a I.A"
+        description="Olá, vamos conversar com a Inteligência Artificial?"
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
@@ -92,7 +92,7 @@ const ConversationPage = () => {
                       <Input
                         className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
                         disabled={isLoading} 
-                        placeholder="How do I calculate the radius of a circle?" 
+                        placeholder="Como calculo o raio de um círculo?" 
                         {...field}
                       />
                     </FormControl>
@@ -100,7 +100,7 @@ const ConversationPage = () => {
                 )}
               />
               <Button className="col-span-12 lg:col-span-2 w-full" type="submit" disabled={isLoading} size="icon">
-                Generate
+                Gerar
               </Button>
             </form>
           </Form>
