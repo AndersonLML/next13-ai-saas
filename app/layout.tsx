@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ClerkProvider } from '@clerk/nextjs'
@@ -28,6 +29,7 @@ export default async function RootLayout({
           <ToasterProvider />
           <ModalProvider />
           {children}
+          <Analytics />
         </body>
       </html>
     </ClerkProvider>
