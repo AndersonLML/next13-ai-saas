@@ -19,7 +19,7 @@ const routes = [
     color: "text-sky-500"
   },
   {
-    label: 'Conversar com a I.A',
+    label: 'Conversar com o Assistente Pessoal',
     icon: MessageSquare,
     href: '/conversation',
     color: "text-violet-500",
